@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
+
+import { SITE_URL } from 'config';
 import { makeCollageSectionClass } from './Styled';
 
 import CollageImage from './CollageImage';
@@ -9,7 +11,7 @@ const CollageSection = ({
 }) => {
   const [imagePoints, setImagePoints] = useState([]);
   useEffect(() => {
-    fetch('/points.json').then((resp) => resp.json()).then((data) => {
+    fetch(`/${SITE_URL}/points.json`).then((resp) => resp.json()).then((data) => {
       setImagePoints(data);
     });
   }, []);
@@ -18,7 +20,7 @@ const CollageSection = ({
   const hintStyle = {
     opacity: hasListLoaded ? 0 : 1,
   };
-  console.log(imagePoints);
+
   return (
     <section className={className}>
       <h1 style={hintStyle}>404</h1>

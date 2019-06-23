@@ -1,5 +1,4 @@
 
-const BBS_URL = '';
+const SITE_BASE_URL = 'dribbble-404';
 
-export const API_URI = BBS_URL;
-export const LOGIN_URL = '/api/v1/login';
+export const SITE_URL = SITE_BASE_URL;

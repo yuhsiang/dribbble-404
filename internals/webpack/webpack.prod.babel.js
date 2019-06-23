@@ -15,8 +15,8 @@ module.exports = require('./webpack.base.babel')({
 
   // Utilize long-term caching by adding content hashes (not compilation hashes) to compiled assets
   output: {
-    filename: '[name].[chunkhash].js',
-    chunkFilename: '[name].[chunkhash].chunk.js',
+    filename: 'dribbble-404/[name].[chunkhash].js',
+    chunkFilename: 'dribbble-404/[name].[chunkhash].chunk.js',
   },
   optimization: {
     splitChunks: {

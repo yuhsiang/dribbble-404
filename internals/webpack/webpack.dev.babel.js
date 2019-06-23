@@ -43,13 +43,13 @@ module.exports = require('./webpack.base.babel')({
   entry: [
     'eventsource-polyfill', // Necessary for hot reloading with IE
     'webpack-hot-middleware/client?reload=true',
-    path.join(process.cwd(), `${appDir}/setting_app.js`), // Start with js/app.js
+    path.join(process.cwd(), `${appDir}/app.js`), // Start with js/app.js
   ],
 
   // Don't use hashes in dev mode for better performance
   output: {
-    filename: '[name].js',
-    chunkFilename: '[name].chunk.js',
+    filename: 'dribbble-404/[name].js',
+    chunkFilename: 'dribbble-404/[name].chunk.js',
   },
   mode: 'development',
   // Add development plugins

@@ -36,12 +36,12 @@ async function main() {
 
   data1.shots.forEach(async (shot) => {
     const fid = genId();
-    await download(shot.img, `static/${fid}.png`);
+    await download(shot.img, `static/dribbble-404/${fid}.png`);
   });
   const data2 = await getImageData('00ff44');
   data2.shots.forEach(async (shot) => {
     const fid = genId();
-    await download(shot.img, `static/${fid}.png`);
+    await download(shot.img, `static/dribbble-404/${fid}.png`);
   });
 }
 
