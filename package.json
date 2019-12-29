@@ -228,7 +228,7 @@
     "url-loader": "0.5.7",
     "warning": "3.0.0",
     "webpack": "^4.29.3",
-    "webpack-bundle-analyzer": "^3.0.4",
+    "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.2.3",
     "webpack-dev-middleware": "^3.5.2",
     "webpack-hot-middleware": "^2.24.3"
