@@ -110,7 +110,7 @@
     "hoist-non-react-statics": "2.1.1",
     "immutable": "3.8.1",
     "intl": "1.2.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "moment": "2.20.0",
     "normalizr": "3.2.4",
     "path-to-regexp": "2.2.1",
