@@ -221,7 +221,7 @@
     "rimraf": "2.5.4",
     "rxjs-marbles": "^5.0.0",
     "sass-loader": "^6.0.6",
-    "shelljs": "0.7.5",
+    "shelljs": "0.8.5",
     "sinon": "2.0.0-pre",
     "style-loader": "0.13.1",
     "terser-webpack-plugin": "^1.2.2",
