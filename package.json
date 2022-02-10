@@ -206,7 +206,7 @@
     "nock": "^9.1.6",
     "node-fetch": "^2.6.0",
     "node-plop": "0.5.4",
-    "node-sass": "^4.5.3",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.11.0",
     "null-loader": "0.1.1",
     "offline-plugin": "^5.0.6",
